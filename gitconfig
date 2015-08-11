@@ -14,11 +14,10 @@
 [alias]
 	st = status
 	aa = add -A
-	ci = commit
+	cm = commit
 	cl = clone
 	br = branch
-	co = checkout
-	df = difftool --no-prompt --extcmd /opt/icdiff/icdiff
+	ck = checkout
 	dc = diff --cached
 	lg = log --graph --pretty=format:'%C(yellow)%h %C(auto)%d %Cgreen(%cr) %C(bold blue)%an%Creset %n%s%n' --abbrev-commit
 	lga = log --graph --pretty=format:'%C(yellow)%h %C(auto)%d %Cgreen(%cr) %C(bold blue)%an%Creset %n%s%n' --abbrev-commit --all

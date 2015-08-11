@@ -17,7 +17,7 @@ alias l='ls --color=auto|lolcat'
 # Shortcuts
 alias d='cd ~/Desktop'
 alias dl="cd ~/Downloads"
-alias p="cd ~/program"
+alias cp="cd ~/program"
 alias o='dolphin .'
 alias sl='sl -l'
 alias g='sleep 1&&xset dpms force off'
