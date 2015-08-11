@@ -1,0 +1,28 @@
+[user]
+	name = hiapk
+	email = Liangzhaostrive@gmail.com
+[push]
+	default = matching
+[color]
+	status = auto
+	branch = auto
+[github]
+	user = hiapk
+	token = aa8bd07da2069b5db1c823c7576148d7f35ca314
+[core]
+	editor = vim
+[alias]
+	st = status
+	aa = add -A
+	ci = commit
+	cl = clone
+	br = branch
+	co = checkout
+	df = difftool --no-prompt --extcmd /opt/icdiff/icdiff
+	dc = diff --cached
+	lg = log --graph --pretty=format:'%C(yellow)%h %C(auto)%d %Cgreen(%cr) %C(bold blue)%an%Creset %n%s%n' --abbrev-commit
+	lga = log --graph --pretty=format:'%C(yellow)%h %C(auto)%d %Cgreen(%cr) %C(bold blue)%an%Creset %n%s%n' --abbrev-commit --all
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	ls = ls-files
+	ign = ls-files -o -i --exclude-standard

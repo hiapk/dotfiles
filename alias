@@ -1,0 +1,40 @@
+# Easier navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Java
+alias jj='javac'
+alias ja='java'
+
+# vps
+alias vps='ssh root@59.188.253.198'
+
+# Easier ls
+alias l='ls --color=auto|lolcat'
+
+# Shortcuts
+alias d='cd ~/Desktop'
+alias dl="cd ~/Downloads"
+alias p="cd ~/program"
+alias o='dolphin .'
+alias sl='sl -l'
+alias g='sleep 1&&xset dpms force off'
+alias w32='env WINEARCH=win32 WINEPREFIX=~/.wine32'
+alias 7x='7z x'
+alias p='ping baidu.com'
+alias qs='rm ~/.config/fcitx/sougou -rf'
+alias su='sudo su'
+alias suroot='sudo su - root'
+alias mt="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
+alias h="history"
+
+# Get week number
+alias week='date +%V'
+
+# Stopwatch
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+
+# Reload the shell
+alias reload="exec $SHELL -l" 
