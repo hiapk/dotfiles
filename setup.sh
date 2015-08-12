@@ -1,7 +1,7 @@
 #!/bin/bash
 # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
 ############################
-
+curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 ########## Variables
 
 dir=~/dotfiles                    # dotfiles directory

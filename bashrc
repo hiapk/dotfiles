@@ -54,8 +54,6 @@ jieya() {
         fi
 
         case $i in
-            #*.t@(gz|lz|xz|b@(2|z?(2))|a@(z|r?(.@(Z|bz?(2)|gz|lzma|xz)))
-               #c='bsdtar xvf';;
         *.tar.gz)  c='tar zxvf';;
         *.tar.xz)  c='tar zJvf';;
         *.7z)  c='7z x';;

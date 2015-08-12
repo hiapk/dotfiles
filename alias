@@ -13,11 +13,12 @@ alias vps='ssh root@59.188.253.198'
 
 # Easier ls
 alias l='ls --color=auto|lolcat'
+alias ll='ls -al --color=auto|lolcat'
+alias la='ls -a --color=auto|lolcat'
 
 # Shortcuts
 alias d='cd ~/Desktop'
 alias dl="cd ~/Downloads"
-alias cp="cd ~/program"
 alias o='dolphin .'
 alias sl='sl -l'
 alias g='sleep 1&&xset dpms force off'
@@ -29,6 +30,12 @@ alias su='sudo su'
 alias suroot='sudo su - root'
 alias mt="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'"
 alias h="history"
+alias cls='clear;printf %b "\033[3J"'
+alias q='exit'
+alias sss='exec /home/liu/program/shell/shut.sh'
+alias exi='eix'
+alias kiall='killall'
+alias rsync='rsync -avP'
 
 # Get week number
 alias week='date +%V'
