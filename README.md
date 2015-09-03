@@ -12,7 +12,7 @@ Create symlinks to the dotfiles in ~/dotfiles/ in your home directory
 
 Installation
 ```
-git clone git://github.com/michaeljsmalley/dotfiles ~/dotfiles
+git clone git://github.com/hiapk/dotfiles ~/dotfiles
 ```
 ```
 cd ~/dotfiles
